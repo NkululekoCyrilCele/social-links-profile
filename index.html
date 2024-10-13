@@ -8,27 +8,31 @@
   
   <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  
 </head>
 <body>
+  <main>
+    <section class="profile-card">
+      <img src="./assets/images/avatar-jessica.jpeg" alt="Profile picture of Jessica Randall" class="profile-card__image">
+      <h1 class="profile-card__name">Jessica Randall</h1>
+      <p class="profile-card__location">London, United Kingdon</p>
+      <p class="profile-card__bio">"Front-end developer and avid reader."</p>
+    
+      <div class="profile-card__links">
+        <a href="https://github.com" target="_blank" class="profile-card__link profile-card__link--github">GitHub</a>
+        <a href="https://frontendmentor.io" target="_blank" class="profile-card__link profile-card__link--frontend-mentor">Frontend Mentor</a>
+        <a href="https://linkedin.com" target="_blank" class="profile-card__link profile-card__link--linkedin">LinkedIn</a>
+        <a href="https://twitter.com" target="_blank" class="profile-card__link profile-card__link--twitter">Twitter</a>
+        <a href="https://instagram.com" target="_blank" class="profile-card__link profile-card__link--instagram">Instagram</a>
+      </div>
+    </section>
+  </main>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="">Nkululeko Cyril Cele</a>
+  </footer>
 </body>
 </html>
